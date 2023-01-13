@@ -36,7 +36,7 @@ public class PostmanEchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("currency:RUR"))
+                .body("data", equalTo("currency:RUB"))
         ;
     }
     @Test
